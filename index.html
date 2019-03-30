@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Mass Mobilization Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    
+<style>
+.carousel-item {
+  /* The image used */
+  background-image: url("Protest_Color.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  
+  /* Full height */
+  height: 500px; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Mass Mobilization Project</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://dataverse.harvard.edu/dataverse/MMdata" target="_blank">Data</a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" href="maps.html">Maps</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="visualization.html">Visualization</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="modeling.html">Modeling</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Note that this is where the carousel slide of three images comes into existence for the home page -->
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active"></div>
+            <div class="carousel-caption d-none d-md-block"> 
+			<div class="bg-text">
+				<br />
+  				<h1 style="font-size:40px">An Effort to Understand Citizen Movements Against Governments</h1>
+  				<br />
+			</div>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          </div>
+
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('Street.jpg')">
+            <div class="carousel-caption d-none d-md-block"> 
+            <!--
+			<div class="bg-text">
+				<br />
+  				<h1 style="font-size:50px">Interactive Visualizations</h1>
+  				<br />
+			</div>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			-->
+          </div>
+           </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('FireTruck.jpg')">
+            <div class="carousel-caption d-none d-md-block"> 
+            <!--
+			<div class="bg-text">
+				<br />
+  				<h1 style="font-size:50px">Modeling</h1>
+  				<br />
+			</div>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+         -->
+          </div>
+           </div>
+                     
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <h1 class="my-4">Explore the Mass Mobilization Data</h1>
+
+      <!-- Pages Icons Section -->
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="mapTest.png" alt="" width="200" height="250">
+            <h4 class="card-header">Data</h4>
+            <div class="card-body">
+              <p class="card-text">The Mass Mobilization data are updated to March 31, 2018.</p>
+            </div>
+            <div class="card-footer">
+              <a href="https://dataverse.harvard.edu/dataverse/MMdata" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="app3.png" alt="" width="200" height="250">
+            <h4 class="card-header">Visualizations</h4>
+            <div class="card-body">
+              <p class="card-text">Visualizations that depict country and regional protest behavior over time.</p>
+            </div>
+            <div class="card-footer">
+              <a href="visualization.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="models.jpg" alt="" width="200" height="250">
+            <h4 class="card-header">Modeling</h4>
+            <div class="card-body">
+              <p class="card-text">Our attempt to understand the dynamics of protest behavior across space and time.</p>
+            </div>
+            <div class="card-footer">
+              <a href="modeling.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-right text-white">Copyright &copy; <a href="https://dataverse.harvard.edu/dataverse/MMdata" target="_blank" style="color:#57C7FF">Mass Mobilization Project</a> 2019</p>
+        <p class="m-0 text-right text-white">Built using <a href="https://startbootstrap.com/template-overviews/modern-business/" target="_blank" style="color:#57C7FF">Bootstrap</a></p>
+        <p class="m-0 text-right text-white">Hosted Through <a href="https://github.com/MassMobilization" target="_blank" style="color:#57C7FF">GitHub</a></p>
+        <p class="m-0 text-right text-white"> <a href="https://github.com/BlackrockDigital/startbootstrap-modern-business/blob/master/LICENSE" target="_blank" style="color:#57C7FF">MIT License</a></p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
